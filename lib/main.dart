@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ui_ass2/auth/screens/splash_screen.dart';
 import 'package:flutter_ui_ass2/screens/main_screen.dart';
 import 'package:get/get.dart';
 
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
           titleTextStyle: AppTextStyle.txt26,
         ),
       ),
-      home: const MainScreen(),
+      home: const SplashScreen(),
     );
   }
 }

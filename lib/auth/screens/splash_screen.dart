@@ -13,7 +13,7 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen> {
   animatSplashScreen() {
     Future.delayed(
-      const Duration(seconds: 1),
+      const Duration(seconds: 5),
       () {
         Get.to(const FoodeScreen());
       },
