@@ -17,6 +17,7 @@ class CustomButtonText extends StatelessWidget {
     return GestureDetector(
       onTap: onTap ?? () {},
       child: Container(
+        
         alignment: Alignment.center,
         height: 55,
         width: MediaQuery.of(context).size.width,
